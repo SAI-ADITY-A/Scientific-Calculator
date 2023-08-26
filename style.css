@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+	font-family: 'Roboto', sans-serif;
+}
+body{
+	height: 100vh;
+	background: linear-gradient(to bottom, #e2e0cf 50%, #88A47C 50%);
+}
+
+.container{
+/* 	width: 300px; */
+	background-color: #88A47C;
+	padding: 20px 20px;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+	border-radius: 10px;
+	box-shadow: 0 20px 50px rgba(0,0,0,0.4);
+}
+.text-center{
+	text-align: center
+}
+
+
+/* To center the container*/
+.center-align{
+	/* use margin: auto and set a width to prevent stretching out of the edges.	 */
+	margin: auto;
+}
+/* Making the container a flex  box to easily handle and center the buttons and rows inisde it.  */
+.flex{
+	display: flex;
+}
+.flex-col{
+	flex-direction: column;
+}
+.items-center{
+	align-items: center;
+}
+
+/* Regarding the size of button class, padding  */
+.row button{
+	width: 60px;
+	padding: 20px;
+	margin: 0 3px;
+	background-color: #e2e0cf;
+	border: 1px solid #181616;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.row{
+	margin: 8px 0;
+}
+/* To style the input text area which is inside the div with a class row */
+.display input{
+	width: 390px;
+	text-align: right;
+	margin: 0 3px;
+	padding: 10px;
+	background-color: #e2e0cf;
+	border: 1px solid #181616;
+	border-radius: 8px;
+	font-size: 20px;
+}
+
+ #eval {
+        background: #3eb7e0;
+        color: black;
+        box-shadow: inset 5px 5px 8px #66d9ff,
+            inset -5px -5px 8px #00ace6;
+    }
+#ce {
+        background: #3eb7e0;
+        color: black;
+        box-shadow: inset 5px 5px 8px #66d9ff,
+            inset -5px -5px 8px #00ace6;
+    }
+#ac {
+        background: #3eb7e0;
+        color: black;
+        box-shadow: inset 5px 5px 8px #66d9ff,
+            inset -5px -5px 8px #00ace6;
+    }
